@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = process.env.EXPO_PUBLIC_API_URL || 'http://10.143.153.104:5000/api';
+const API_URL = process.env.EXPO_PUBLIC_API_URL || 'https://task-app-api-cy3e.onrender.com/api';
 
 // Callback to be set by AuthContext for handling forced logout
 let onUnauthorized: (() => void) | null = null;
